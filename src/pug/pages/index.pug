@@ -1,0 +1,22 @@
+extends ../layout/main
+
+block head
+	link(rel="stylesheet", href="css/style.min.css")
+
+block variables
+	- let title = 'Project'
+	- let description = 'Description of project'
+	- let pageClass = 'index-page'
+
+	
+
+
+
+block content
+	include ../modules/header
+	p Content is here
+	img(src="img/img.jpg")
+	include ../modules/footer
+
+block script
+	script(src="js/script.min.js")

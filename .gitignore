@@ -1,0 +1,4 @@
+node_modules
+.jshintrc
+package.json
+package-lock.json

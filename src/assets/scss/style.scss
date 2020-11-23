@@ -1,0 +1,31 @@
+/* import libraries */
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+/* import utils*/
+@import 'utils/variables';
+@import 'utils/mixins';
+@import 'utils/animations';
+
+/* import modules */
+@import 'modules/header';
+
+/*
+project modules
+*/
+
+@import 'modules/footer';
+/*important! Media at the end*/
+@import 'modules/media';
+
+
+body{
+    font-size: 40px;
+    display: flex;
+    background-color: blue
+}
+    
+    
+
+
+
